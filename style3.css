@@ -1,0 +1,30 @@
+ul{
+    float:right;
+    list-style-type:none;
+    margin-top:20px;
+    font-size: 25px;
+     }
+     ul li{
+    display:inline-block;
+    margin-top:5px;
+     }
+     ul li a{
+    text-decoration:none;
+    color:rgb(212, 166, 121);
+    padding: 5px 20px;
+    border: 1px solid transition;
+    transition:0.6s ease;
+     }
+     ul li a:hover{
+    background-color:#000;
+    color:#fff;
+     }
+     ul li.active a{
+    background-color:#000;
+    color:#fff;
+     }
+     .main{
+        margin:8%;
+        max-width:1600px;
+        margin-top:1px;
+         }
